@@ -1,0 +1,27 @@
+.dialogs_wrapper {
+    grid-area: c;
+    display:grid;
+    grid-template-columns:1fr 3fr; 
+    grid-template-areas: "p m";
+  }
+  .profile{
+    grid-area: p;
+    background-color: rgba(139, 143, 151, 0.623);
+    border: 1px solid rgb(139, 143, 151);
+    padding:1px;
+    
+  }
+  .messageDialogs{
+    grid-area: m;
+    display: grid;
+    grid-template-rows: 8fr 2fr;
+    border: 1px solid red;
+    
+  }
+  .message{  
+    background-image: url("https://cdn.oboi7.com/static/images/m/7a/3f/7a3fdd9af8aca10400d541d5fab3b5b02bd1e823.jpg");
+  }
+  .newMessage{
+   background-color: rgb(82, 224, 235);
+  }
+  

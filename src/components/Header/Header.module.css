@@ -1,0 +1,13 @@
+.header {
+    grid-area: h;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNr_1_DwRco7nd2H3TTHN6eLNCmIKzXdAfXMHjZ69ZCmnMQWgy&usqp=CAU");  
+    border-bottom:5px solid gold;
+
+   
+}
+.header img {
+  height: 60px;
+  width:166px;
+  border-right:5px solid gold;
+        
+}
