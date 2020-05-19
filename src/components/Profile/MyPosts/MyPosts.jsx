@@ -1,12 +1,11 @@
 import React from 'react';
 import s from './MyPosts.module.css';
 import Post from './Post/Post';
-import {addPostActionCreator,uppdateNewPostTextActionCreator} from "./../../../redux/state"
+import {addPostActionCreator,updateNewPostTextActionCreator} from "./../../../redux/Profile-reducer"
 
 
 const MyPosts = (props) => {
 
-  
   let postsElement = props.state.posts.map( p => <Post message={p.message} id={p.id}  likesCount={p.likescount} />);
   
   
@@ -18,7 +17,7 @@ const MyPosts = (props) => {
   let onPostChange = () =>{
     let text = newPostElement.current.value;
     //props.dispatch({type: "UPDATE-NEW-POST-TEXT",text : text})
-    let action = uppdateNewPostTextActionCreator(text);
+    let action = updateNewPostTextActionCreator(text);
     props.dispatch(action);
   };
 

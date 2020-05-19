@@ -14,14 +14,24 @@
   .messageDialogs{
     grid-area: m;
     display: grid;
-    grid-template-rows: 8fr 2fr;
-    border: 1px solid red;
+    grid-template-rows: 8fr 1fr;
+   
     
   }
   .message{  
     background-image: url("https://cdn.oboi7.com/static/images/m/7a/3f/7a3fdd9af8aca10400d541d5fab3b5b02bd1e823.jpg");
   }
   .newMessage{
-   background-color: rgb(82, 224, 235);
+   display: grid;
+   grid-template-columns: 8fr 2fr;
   }
+  .newMessage button{ 
+    height: 100%;
+    width: 100%;
+    background-color:  rgb(82, 224, 235);
+  } 
+  .inputMessage input{ 
+    width: 100%;
+    height: 50px;}
+  
   
