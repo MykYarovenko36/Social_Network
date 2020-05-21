@@ -5,7 +5,7 @@ const Post = (props) => {
  
   return (
     <div className={s.item}>
-      <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTyNMENU7VP9ZtjZUuuEc9LyWUghgNzrbJp2UL-C0GSczwmzCrQ&usqp=CAU' />
+      <img alt="img" src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTyNMENU7VP9ZtjZUuuEc9LyWUghgNzrbJp2UL-C0GSczwmzCrQ&usqp=CAU' />
       {props.message}
       
           <div>

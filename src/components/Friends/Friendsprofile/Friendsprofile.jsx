@@ -13,7 +13,7 @@ const Friendsprofile = (props) => {
    <div className={s.Friendprofile}>
 
          <div>
-            <img src={props.profileFoto} />
+            <img alt="img" src={props.profileFoto} />
          </div>
          <div>{props.name}</div>
       </div>
